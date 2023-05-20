@@ -79,6 +79,7 @@ fieldset {
   gap: 24px;
 }
 
+
 fieldset legend {
   font-family: 'Archivo';
   font-weight: 600;
@@ -137,9 +138,10 @@ fieldset legend {
   gap: 20px;
 }
 
-.cal-3>div:nth-child(1) {
+.cal-3>div:nth-child() {
   width: 100%;
 }
+
 
 footer {
   background: #535971;
