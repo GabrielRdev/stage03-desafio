@@ -13,7 +13,7 @@ textarea {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #E5E5E5;
 }
 
 body::before {
@@ -25,7 +25,7 @@ body::before {
   top: 0;
   left: 0;
   z-index: -1;
-  background: #121214;
+  background: #535971;
 }
 
 .page {
@@ -53,7 +53,7 @@ header p {
   font-size: 16px;
   line-height: 26px;
 
-  color: #42d3ff;
+  color: #FFFFFF;
 }
 
 form {
@@ -96,8 +96,7 @@ fieldset legend {
   flex-direction: column;
 }
 
-.input-wrapper label,
-.checkbox-wrapper label {
+.input-wrapper label {
   font-size: 12px;
   line-height: 24px;
 
@@ -119,9 +118,7 @@ fieldset legend {
   color: #8f8d95;
 }
 
-.input-wrapper input,
-.input-wrapper textarea,
-.input-wrapper select {
+.input-wrapper input {
   background: #fafafc;
 
   border: 1px solid #e6e6f0;
@@ -135,20 +132,6 @@ fieldset legend {
   line-height: 26px;
 }
 
-.input-wrapper textarea {
-  padding: 0;
-  height: 168px;
-}
-
-.input-wrapper select {
-  appearance: none;
-  -webkit-appearance: none;
-
-  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1_54)'%3E%3Cpath d='M8 10L12 14L16 10' stroke='%239C98A6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_54'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
 .col-3 {
   display: flex;
   gap: 20px;
@@ -159,7 +142,7 @@ fieldset legend {
 }
 
 footer {
-  background: #F0F0F4;
+  background: #535971;
 
   height: 136px;
 
@@ -176,7 +159,7 @@ footer {
 
 footer .button {
   height: 56px;
-  background: #04d361;
+  background: #FF5374;
   border: 0;
   border-radius: 8px;
 
@@ -192,7 +175,7 @@ footer .button {
 
 footer .button:hover {
 
-  background: #09964a;
+  background: #d43b59;
 }
 
 input:invalid {
